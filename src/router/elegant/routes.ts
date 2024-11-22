@@ -74,5 +74,15 @@ export const generatedRoutes: GeneratedRoute[] = [
       constant: true,
       hideInMenu: true
     }
+  },
+  {
+    name: 'messages',
+    path: '/messages',
+    component: 'layout.base$view.messages',
+    meta: {
+      title: 'messages',
+      i18nKey: 'route.messages',
+      order: 2
+    }
   }
 ];
